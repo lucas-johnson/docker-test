@@ -18,7 +18,7 @@ jobs:
               with:
                   args: >-
                       --standalone
-                      --ouput=build/index.html
+                      --output=build/index.html
                       README.md
             - name: Deploy on github pages
               uses: JamesIves/github-pages-deploy-action@4.1.0
